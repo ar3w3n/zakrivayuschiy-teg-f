@@ -113,7 +113,7 @@
 }
 
 .cards__title {
-  font-weight: bold;
+  font-variation-settings: "wght" var(--font-weight-title);
   margin-inline-start: 10px;
 }
 
@@ -166,6 +166,7 @@
 }
 
 .cards__text {
+  font-variation-settings: "wght" var(--font-weight-content);
   line-height: 121%;
 }
 
@@ -211,7 +212,7 @@
   transition: color 0.5s ease-in-out;
 }
 
-.btn:hover .button__text{
+.btn:hover .button__text {
   color: var(--background-color);
 }
 
@@ -337,8 +338,4 @@ dialog::backdrop {
 
 .combo {
   filter: sepia(0.5) invert(77%);
-}
-
-@media (width <= 375) {
-  
 }

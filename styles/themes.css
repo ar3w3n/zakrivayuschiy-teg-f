@@ -14,6 +14,8 @@
   ),
   repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, rgba(0, 0, 0, 0) 2px 4px),
   linear-gradient(#e7e7e7, #1a1a1a);
+  --font-weight-title: 700;
+  --font-weight-content: 400;
 }
 
 :root.theme-dark {
@@ -25,6 +27,8 @@
   ),
   repeating-linear-gradient(to bottom, #000 0px 2px, rgba(0, 0, 0, 0) 2px 4px),
   linear-gradient(#007f0c, #004306);
+  --font-weight-title: 785;
+  --font-weight-content: 465;
 }
 
 .theme-dark .card__icon-button .contour {

@@ -1,10 +1,12 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --decorative-font: 'PressStart2P-Regular', monospace;
+  --decorative-font: 'PressStart2P-Regular', fantasy;
   --main-font: 'Inter-Variable', sans-serif;
   --text-color: #000;
   --background-color: #fff;
   --heart-color: #ff0000;
+  --font-weight-title: 700;
+  --font-weight-content: 400;
   --background: repeating-linear-gradient(to right, rgba(211, 211, 211, 1), rgba(211, 211, 211, 1) 2px, rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px), repeating-linear-gradient(to bottom, rgba(211, 211, 211, 1), rgba(211, 211, 211, 1) 2px, rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px), linear-gradient(#e7e7e7, #1a1a1a);
 }
