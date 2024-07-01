@@ -338,3 +338,7 @@ dialog::backdrop {
 .combo {
   filter: sepia(0.5) invert(77%);
 }
+
+@media (width <= 375) {
+  
+}
