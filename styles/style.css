@@ -143,7 +143,7 @@
 
 .cards__title {
   font-variation-settings: "wght" var(--font-weight-title);
-  margin-inline-start: 10px;
+  margin: 10px;
 }
 
 .cards__cover {
@@ -397,8 +397,6 @@ dialog::backdrop {
   width: 100%;
   min-width: 375px;
 }
-
-.
 
 .dialog {
   padding: 30px 40px;
