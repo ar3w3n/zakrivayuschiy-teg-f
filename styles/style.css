@@ -78,7 +78,6 @@
   font-size: 14px;
   border: none;
   text-transform: uppercase;
-  position: relative;
 }
 
 .theme-menu__button:hover {
@@ -307,6 +306,7 @@
   border: 2px solid var(--text-color);
   padding: 18.5px 21px 18.5px 19px;
   margin: 52px 0 105px;
+  gap: 3.5px;
 }
 
 /* dialog */
@@ -388,5 +388,10 @@ dialog::backdrop {
 
   .dialog {
     padding: 30px 40px;
+  }
+
+  .main__button {
+    flex-direction: column;
+    gap: 8px;
   }
 }
